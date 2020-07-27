@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+
+    .book {
+        &__bg {
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+    }
+    
+    .home {
+        &__box {
+            display: none;
+        }
+
+        &__menu > div > div > ul > li::after,
+        &__hamburger > div {
+            background-color: salmon;
+        }
+    }
+}
